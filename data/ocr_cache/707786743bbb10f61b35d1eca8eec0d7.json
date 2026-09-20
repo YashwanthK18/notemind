@@ -1,0 +1,4 @@
+{
+  "text": "MPI_Ssend(my keys, n / comm_sz, MPILINT, partner, @, comm);",
+  "description": ""
+}

@@ -1,0 +1,4 @@
+{
+  "text": "int MPI_Reduce(\nvoid* input_data_p,\nvoid* output_data_p,\nint count,\nMPI_Datatype datatype,\nMPI_Op operator,\nint dest_process,\n\nMPI_Comm comm\n\n// input buffer\n/ result buffer (valid only at root)\n// number of eLements\n\n// type of data (e.g., MPI_DOUBLE)\n\n// operation to perform (e.g., MPI_SUM)\n/ rank of root process\n\n// communicator (e.g., MPT_COMM WORLD)",
+  "description": ""
+}

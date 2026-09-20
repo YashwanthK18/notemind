@@ -1,0 +1,4 @@
+{
+  "text": "Table 3.2 Predefined Reduction Operators in MPI\n\nOperation Value\nMP L_MAK\nMPL_MIN\nMeI_sum\nMP1_pROD\nMPI_LAND\nMP1_BanD\nMPI_LOR\nMPI_B0R\nMPI_LxOR\nMP1_Bx0R\nMPI_MAKLOC\n\nMPI_MINLOC\n\nMeaning\n\nMaximum,\n\nMinimum\n\nsum\n\nProduct\n\nLogical and\n\nBitwise and\n\nLogical or\n\nBitwise or\n\nLogical exclusive or\n\nBitwise exclusive or\n\nMaximum and location of maximum\nMinimum and location of minimum,",
+  "description": ""
+}

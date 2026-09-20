@@ -1,0 +1,4 @@
+{
+  "text": "int my_rank fs in #/,\n\nint comm_sz  /* in #/,\n\ndoubles a_p /* out */,\n\ndoublex b_p /* out */,\n\nint* np y= out */) {\nint dest;\n\nif (my_rank == 0) {\nprintf(\"Enter a, b, and n\\n\")\n\nscant(\"% BIf Bd\", ap, bp, np);\nfor (dest = 1; dest < commsz; dest++) (\nMPI_Send(a_p, 1, MPI_DOUBLE, dest, O, MPI_COMM_WORLD);\n\nMPI_Send(b_p, 1, MPI_DOUBLE, dest, 0, MPI_COMM_WORLD);\nMPI_Send(n_p, 1, MPILINT, dest, 0, MPI_COMM_WORLD);\n}\n} else { /* my_rank != 0 */\nMPI_Recv(a_p, 1, MPI_ODUBLE, 0, 0, MPI_COMM_WORLD,\nMPI_STATUS_IGNORE );\nMPI_Recv(b_p, 1, MPI_OOUBLE, 0, 0, MPI_COMM_WORLD,\nMPI_STATUS_IGNORE );\nMPI_Recv(n_p, 1, MPI_INT, O, O, MPI_COMM_\nMP1_STATUS_IGNORE );\n\nORLD,\n\n}\n) /* Get_input 4/\n\nProgram 3.5: A function for reading user input.",
+  "description": ""
+}

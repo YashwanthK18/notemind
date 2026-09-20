@@ -1,0 +1,4 @@
+{
+  "text": "int MPI_Comm_size(MPI_Comm comm, int* comm_sz_p);\n\nint MPI_Comm_rank(MPI_Comm comm, int® my_rank_p);",
+  "description": ""
+}

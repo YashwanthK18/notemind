@@ -1,0 +1,4 @@
+{
+  "text": "void Mat_vect_mul\n\ndouble fe in x/,\ndouble ye in ¥/,\ndouble /* out */,\nint ye in x/,\nint n ye in ¥/,\nint ye in ¥/,\nMPI_Comm comm ye in #/) {\ndoublex x;\nint local_t, j\nint local_ok = 1\nx = malloc (n*sizeof (double ));\nMPI_Allgather(local_x, local_n, MPI_\nx, local_n, MPI_DOUBLE, comm);\nfor (1ocal_i = 0; local_i < local_m; local_i++) {\nlocal_y[local_i] = 0.0;\nfor (i = 0; J <0; i++)\nocal_y[local_t] += local_A[local_iwntj]«x(j]s\n\n}\nFree(x)i\n)} /* Mat_vect_mult /\n\nProgram 3.12: An MPI matrix-vector multiplication function.",
+  "description": ""
+}

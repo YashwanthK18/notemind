@@ -1,0 +1,4 @@
+{
+  "text": "For our example:\n\nint array_of_blocklengths[3] = {1, 1, 1};\nMPI_Datatype array of types[3] = {MPI_DOUBLE, MPI_DOUBLE, MPI_INT};\n\nDisplacements can be computed usin:\n\nMPI_Get_address(&a, &a_addr);\nMPI_Get_address(&b, &b_addr);\nMPI_Get_address(&n, &n_addr);\n\nThen:\n\n8;\nb_addr - a_addr;\n\nn_addr - a_addr;\n\narray_of_displacements[0]\narray_of_displacements[1]\n\narray_of_displacements[2]",
+  "description": ""
+}

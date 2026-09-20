@@ -1,0 +1,4 @@
+{
+  "text": "MPI_Send(my_keys, n / comm_sz, MPI_INT, partner, @, comm);\nMPI_Recv(temp_keys, n / comm_sz, MPILINT, partner, @, comm, MPI_STATUS IGNORE);",
+  "description": ""
+}

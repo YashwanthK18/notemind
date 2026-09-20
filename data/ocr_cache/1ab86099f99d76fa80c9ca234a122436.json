@@ -1,0 +1,4 @@
+{
+  "text": "Sort local keys;\n\nfor (phase = @; phase < comm_sz; phase++) {\npartner = Compute_partner(phase, my_rank);\n\nMPI_PROC_NULL) {\n\nSend my keys to partner:\n\nif (partner\n\nReceive partner's keys;\nif (my_rank < partner)\n\nKeep smaller keys;\nelse\n\nkeep larger keys;",
+  "description": ""
+}

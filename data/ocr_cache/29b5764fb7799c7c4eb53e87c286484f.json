@@ -1,0 +1,4 @@
+{
+  "text": "Tparallel(n, p) = Tserial(n) / p + T_overhead",
+  "description": ""
+}

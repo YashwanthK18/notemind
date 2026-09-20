@@ -1,0 +1,4 @@
+{
+  "text": "Table 3.1 Some predefined MPI datatypes.\n\nMPI datatype\nMPI_cHaR\n\nMPI_sHORT\n\nMPI_INT\n\nMPI_LONG\nMPI_LONG_LONG\nMPI_UNSIGNED_CHAR\nMPI_UNSIGNED_SHORT\nMPI_UNSIGNED\nMPI_UNSIGNED_LONG\nMPI_FLOAT\nMPI_00usLE\nMPI_LONG_pouaLE\nMPI_8YTE\nMPI_PACKED\n\nC datatype\n\nsigned char\n\nsigned short int\nsigned int\n\nsigned long int\nsigned long long int\nunsigned char\nunsigned short int\nunsigned int\nunsigned long int\nfloat\n\ndouble\n\nlong double",
+  "description": ""
+}

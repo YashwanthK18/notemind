@@ -1,0 +1,4 @@
+{
+  "text": "MPI_Send(msg, size, MPI_INT, (my_rank + 1) % comm_sz, @, comm);\nMPI_Recv(new_msg, size, MPI_INT, (my_rank + comm_sz - 1) % comm_sz, @, comm, MPI_STATUS_IGNORE);",
+  "description": ""
+}

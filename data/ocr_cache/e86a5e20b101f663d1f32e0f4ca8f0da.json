@@ -1,0 +1,4 @@
+{
+  "text": "int MPI_Scatter(\n\nvoid* send buf_p, = // in\n\nint send_count, // in (per process)\nMPI_Datatype send_type, // in\n\nvoid* recv_buf_p, — // out\n\nint recv_count, // in\n\nMPI_Datatype recv_type, // in\n\nint src_proc, // in\n\nMPI_Comm comm // in\n\n5",
+  "description": ""
+}

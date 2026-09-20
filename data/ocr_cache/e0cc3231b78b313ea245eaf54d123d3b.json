@@ -1,0 +1,4 @@
+{
+  "text": "int MPI_Init(int* argc_p, char*** argv_p);",
+  "description": ""
+}

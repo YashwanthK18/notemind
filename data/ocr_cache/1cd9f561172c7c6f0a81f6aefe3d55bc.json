@@ -1,0 +1,4 @@
+{
+  "text": "void Print_vector(\n\ndouble ocal_b[] /® in ¥/,\nint ocal_n ein ¥/,\nint n /* in 4/,\nchar titlel]  /* in a/,\nint my_rank 9 /& in ¥/,\nMPI_Comm comm /* in #/) |\n\ndouble b = NULL;\nint i;\n\nif (my_rank == 0) {\nb malloc (n*sizeof (double ));\nMPI_Gather(Tocal_b, local_n, MPI_\nMPI_DOUBLE, O, comm);\nprintf(*%s\\n\", title)s\n\nUBLE, b, local_n,\n\nfor (i = 0; 1 <0; i+4)\nprinte(\"f *, bET])s\n\nprintt(*\\n\n\nfree(b);\n\n} else {\nMPI_Gather(1ocal_b, local_n, MPI_DUBLE, b, local_n,\nNPI_DOUBLE, 0, comm);\n\n}\n\n)} /* Print_vector */\n\nProgram 3.10: A function for printing a distributed vector.",
+  "description": ""
+}

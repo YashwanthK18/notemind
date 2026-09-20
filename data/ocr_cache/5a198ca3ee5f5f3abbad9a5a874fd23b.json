@@ -1,0 +1,4 @@
+{
+  "text": "T_parallel(1024, 8) = T_parallel(1024, 16)\nT_parallel(2048, 16) = 1.5 x T_parallel(1024, 16)",
+  "description": ""
+}

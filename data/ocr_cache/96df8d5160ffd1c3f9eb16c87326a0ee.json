@@ -1,0 +1,4 @@
+{
+  "text": "Many systems also support program startup with npiexect\n$ mpiexec —n <number of processes> ./mpi_hello\nSo to run the program with one process, we'd type\n$ mpiexec —n 1 ./mpi_hello\nand to run the program with four processes, we'd type\n$ mpiexec —n 4 ./mpi_hello\nWith one process, the program’s output would be\nGreetings from process O of I!\nand with four processes, the program’s output would be\n\nGreetings from process O of 4!\nGreetings from process I of 4!\nGreetings from process 2 of 4!\nGreetings from process 3 of 4!",
+  "description": ""
+}

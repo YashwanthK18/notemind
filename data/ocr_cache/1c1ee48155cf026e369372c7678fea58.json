@@ -1,0 +1,4 @@
+{
+  "text": "Computing the Partner\n\nif (phase % 2\nif (my_rank % 2\n\nO) @ W/ Gusn pire\n8)\n\npartner = my_rank - 1;\nelse\npartner = my_rank + 13\n} else { // Odd phase\n\nif (my_rank % 2 != 0)\n\nmy_rank + 15\n\npartner\nelse\n\npartner\n\nmy_rank - 1;\n\nif (partner < @ || partner >= comm_sz)\npartner = MPI_PROC_NULL;",
+  "description": ""
+}

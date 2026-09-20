@@ -1,0 +1,4 @@
+{
+  "text": "Table 3.3 Multiple Calls to MPI_Reduce.\nTime | Process 0 Process 1 Process 2\n\n0 ja-trc=2 asi:c=2 asi:c=2\n1 | MPI_Reduce(ta, ab. ...)\n2 | wei\n\nuce(hc, Bd, ...) | MPI_Reduce(ka, &b,\n\nduce(&c, ad...)\n\nuce(ha ) | MPI_Reduce(&c, ad,",
+  "description": ""
+}

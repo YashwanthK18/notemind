@@ -1,0 +1,4 @@
+{
+  "text": "double start, finish;\n\nstart = MPI_Wtime();\n\n/* Code to be timed */\n\nfinish = MPI_Wtime();\n\nprintf(\"Proc %d > Elapsed time = %e seconds\\n\", my_rank, finish - start);",
+  "description": ""
+}

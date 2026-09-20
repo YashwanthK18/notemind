@@ -1,0 +1,4 @@
+{
+  "text": "double local_start, local finish, local_elapsed, elapsed;\n\nMPI_Barrier(comm); // Synchronize all processes\n\nlocal_start = MPI_Wtime();\n\n/* Code to\nlocal_finish = MPI_Wwtime();\n\nlocal_elapsed = local_finish - local_start;\n\nMPI_Reduce(&local_elapsed, &elapsed, 1, MPI_DOUBLE, MPI_MAX, @, comm);\n\n2)\nprintf(\"Elapsed time = %e seconds\\n\", elapsed);\n\nif (my_rank",
+  "description": ""
+}

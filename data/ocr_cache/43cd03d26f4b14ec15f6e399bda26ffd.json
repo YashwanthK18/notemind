@@ -1,0 +1,4 @@
+{
+  "text": "#include <mpi-h>\n\nint main(int argc, char* argv[]) {\nMPI_Init(&argc, &argv);\n// MPI code\nMPI_Finalize();\n\nreturn @3",
+  "description": ""
+}

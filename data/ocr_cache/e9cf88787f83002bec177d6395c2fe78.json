@@ -1,0 +1,4 @@
+{
+  "text": "After building the datatype using MPI_Type_create_struct , we must commit it with:\n\nMPI_Type_commit (&input_mpi_t);\n\nAnd then we can broadcast all three values at once:\n\nMPI_Bcast(&a, 1, input_mpi_t, @, comm);\n\nWhen done, we free the derived type using\n\nMPI_Type_free(&input_mpi_t);",
+  "description": ""
+}

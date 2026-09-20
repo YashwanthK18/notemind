@@ -1,0 +1,4 @@
+{
+  "text": "MPI_Sendrecv_replace(buf, buf_size, buf_type, dest, send_tag,\n\nsource, recv_tag, comm, &status);",
+  "description": ""
+}

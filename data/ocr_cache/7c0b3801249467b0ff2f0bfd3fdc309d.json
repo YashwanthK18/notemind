@@ -1,0 +1,4 @@
+{
+  "text": "BIA wWHR\n\ndouble Trap(\n\ndouble jeft_en f= in #*/,\ndouble pight_e t /* in #/,\nint trap_count /® in #/,\ndouble bas en fs in */) {\ndouble estimate, x;\nint i;\nestimate = (f(left_endpt) + f(right_endpt ))/2.0;\nfor (i = 1; 1 <= trap_count—1; i#4) (\nx = left_endpt + imbase_len;\nestimate += f(x)3\n}\nestimate = estimatewbase_len;\nreturn estimate;\n) /* Trap */\nProgram 3.3: Trap function in MPI trapezoidal rule.",
+  "description": ""
+}

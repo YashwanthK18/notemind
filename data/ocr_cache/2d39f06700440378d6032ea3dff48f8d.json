@@ -1,0 +1,4 @@
+{
+  "text": "#include “timer.h”\ndouble start, finish;\n\nGET_TINE(start);\n\n/* Code to be timed */\n\nGET_TINE(finish) ;\n\nprintf(\"Elapsed time = %e seconds\\n\", finish - start);",
+  "description": ""
+}

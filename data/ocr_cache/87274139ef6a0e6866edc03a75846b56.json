@@ -1,0 +1,4 @@
+{
+  "text": "n_sort(\nint af] /* in/out x/,\nint» /« in /) {\n\nint phase, i, ten\n\nfor (phase = 0; phase <n; phase++)\nif (phas 0) ( /* Even phase */\nfor (i = 1; i <n; i 4= 2)\nif (a[i-l] > ali} {\n\ntemp = afi];\nali] = ali-ih\na[i-1] = temp;\n}\n} else { /* Odd phase */\nfor (i = 1; i <n-h\nif (afi] > afl) (\ntemp = afi];\nali] = afi#l;\natitl] = temp;\n}\n\n}\n\n/* Odd_even_sort */\n\nProgram 3.1\n\nSerial odd-even transposition sort.",
+  "description": ""
+}

@@ -1,0 +1,4 @@
+{
+  "text": "int MPI_Allgather(\nvoid* send buf_p, = // in\nint send_count,, // in\nMPI_Datatype send_type, // in\nvoid* recv_buf_p, — // out\nint recv_count,, // in\nMPI_Datatype recv_type, // in\n‘MPI_Comm comm // in",
+  "description": ""
+}

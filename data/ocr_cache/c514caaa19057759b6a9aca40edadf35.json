@@ -1,0 +1,4 @@
+{
+  "text": "int MPI_Allreduce(\nvoid* input_data_p,\nvoid* output_data_p,\n\nint count,\nMPI_Datatype datatype,\nMPI_Op operator,\nMPI_Comm comm\n\n3",
+  "description": ""
+}

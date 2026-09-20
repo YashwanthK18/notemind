@@ -1,0 +1,4 @@
+{
+  "text": "MPI_Reduce(local_x, sum, N, MPI_DOUBLE, MPI_SUM, @, MPI_COMM WORLD);",
+  "description": ""
+}

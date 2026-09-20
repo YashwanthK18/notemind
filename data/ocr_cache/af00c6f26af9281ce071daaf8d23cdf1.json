@@ -1,0 +1,4 @@
+{
+  "text": "MPI_Recv(recv_buf_p, recv_buf_sz, recv_type, src, recv_tag, recv_comm, &status);",
+  "description": ""
+}

@@ -1,0 +1,4 @@
+{
+  "text": "gcc -g -Wall -I/home/user/my_include -o prog prog.c",
+  "description": ""
+}

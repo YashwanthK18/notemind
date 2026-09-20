@@ -1,0 +1,4 @@
+{
+  "text": "MPI_Comm_rank(MPI_COMM_WORLO, &my_rank )3\nMPI_Comm_size(MPI_COMM_WORLO, &comm_sz);\n\nGet_input(my_rank, comm_sz, &a, &b, &n);\n\nn= (boa )/ny",
+  "description": ""
+}

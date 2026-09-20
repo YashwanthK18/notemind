@@ -1,0 +1,4 @@
+{
+  "text": "void Get_input(\nint my\nint\ndoublex a_p\ndouble\nint» np\n\nrank\ncomm_sz\n\nif (my_rank 0) {\nprintf(\"Enter a,\nscanf(\"%1f 21F\n\n}\n\nNPI_@cast(a_p, 1,\nNPI_Beast(b_p, 1,\nMPI_Bcast(n_p, 1, MP\n\n) /* Get_input */\n\nMPL\nmp1\n\nIe\nIt\nIe\nIe\nIt\n\nin\nin\n\nout\nout\nout\n\nand\nap.\n\nUBLE,\nDOUBLE,\n\n-INT,\n\n*/,\n\n*/,\n\na/,\n\n*/,\n\n/) |\n\nbp, n_p)s\nO, MPI_COMM_WORLD);\nO, MPI_COMM_WORLD);\n\nO, MPI_COMM_WORLD);\n\nProgram 3.\n\nA version of Get_;\n\nnput that uses MPI_Bcas",
+  "description": ""
+}

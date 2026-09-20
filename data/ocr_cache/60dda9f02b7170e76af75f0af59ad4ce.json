@@ -1,0 +1,4 @@
+{
+  "text": "int MPI_Get_count(MPI_Status* status_p, MPI_Datatype type, int* count_p);",
+  "description": ""
+}

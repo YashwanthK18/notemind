@@ -1,0 +1,4 @@
+{
+  "text": "T_serial(4096) = 1.9 x T_parallel(496, 2)\nT_parallel(8192, 2) = 2.@ x T_parallel(192, 4)\n\nDoubling n roughly quadruples the time:\n\nT_serial(4096) = 4.0 x T_serial(2048)\nT_parallel(4096, 2) 3.9 x T_parallel(2048, 2)",
+  "description": ""
+}

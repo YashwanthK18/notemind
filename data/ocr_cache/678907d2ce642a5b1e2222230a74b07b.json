@@ -1,0 +1,4 @@
+{
+  "text": "int MPI_Recv(\n\nvoid* msg_buf_p, // receive buffer\n\nint buf_size, // max elenents to receive\n\nMPI_Datatype buf_type, // type of elements\n\nint source, // source rank\n\nint tag, // message tag\n\nMPI_Comm communicator, // communicator group\n\nMPI_Status* status_p // status info (can use MPI_STATUS_IGNORE)\nd3",
+  "description": ""
+}

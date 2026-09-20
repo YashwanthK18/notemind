@@ -1,0 +1,4 @@
+{
+  "text": "Table 3.5 Run-times of serial and parallel matrix-\nvector multiplication (times are in milliseconds).\n\nOrder of Matrix\nconnsz 1024 | 2048 | 4096 |s8192 16,384\n1 44 16.0 | 640 — | 270 1100\n2 23 85 [33.0 | 140 560\n4 2.0 Sa 18.0 70 280\n8 17 33 98 36 140\n16 17 2.6 59 19 an",
+  "description": ""
+}

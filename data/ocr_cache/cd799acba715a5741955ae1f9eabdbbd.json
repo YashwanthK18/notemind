@@ -1,0 +1,4 @@
+{
+  "text": "20\n\n23\n24\n\nlocal_a[]  /* our */,\nlocal Je in as,\nn Je in #/,\nvec_name[] /* in ¥/,\n\nmy_rank /* in #/,\nMPI_Comn comm Je in #/) {\n\ndoubles a = NULL;\nint 1;\n\nif (my_rank == 0) {\na = malloc(n*sizeof (double ));\nprintf(\"En\nfor (i = 0; i <n; i++)\nscanf(\"21f\", &ali])s\n\nthe vector %s\\n\", vec_name);\n\nNPI_Scatter(a, local_n, MP1_DOUBLE, local_a, local_n,\nMPI_OOUBLE, 0, comm);\nFree(a);\n} else {\n\nMPI_Scatter(a, local_n, MPI\nMPT_DOUBLE, 0, comm);\n\n}\n/* Read_\n\nector */\n\nProgram 3.9; A function for reading and distributing-a-vector;",
+  "description": ""
+}

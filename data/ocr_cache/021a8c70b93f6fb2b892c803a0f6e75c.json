@@ -1,0 +1,4 @@
+{
+  "text": "{(MPI_DOUBLE, @), (MPI_DOUBLE, 16), (MPI_INT, 24)}\n\nTo construct this derived datatype, MPI provides:\n\nint MPI_Type_create_struct(int count,\nint array_of_blocklengths[],\n\nMPI_Aint array of displacements],\nMPI_Datatype array of _types[],\nMPI_Datatype* new_type_p);",
+  "description": ""
+}

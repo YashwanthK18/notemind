@@ -1,0 +1,4 @@
+{
+  "text": "#include <stdio.h>\n#include <mpi.h>\n\nint main(void) {\nint my_rank, comm_sz3;\n\nMPI_Imit (NULL, NULL);\nMPI_Comm_size(MPI_COMM WORLD, &comm_sz);\nMPI_Comm_rank(MPI_COMM WORLD, &my_rank);\n\nprin Proc %d of %d > Does anyone have\n\nmy_rank, comm_sz)3\n\nMPI_Finalize()s\nreturn 0;\n} /* main */\n\na\n\ntoothpick?\\n\n\nProgram 3.\n\nEach process just prints a message.",
+  "description": ""
+}

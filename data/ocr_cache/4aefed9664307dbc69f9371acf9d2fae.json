@@ -1,0 +1,4 @@
+{
+  "text": "Table 3.7 Efficiencies of parallel matrix-vector\nmultiplication\n\nOrder of Matrix\nconmsz |1024 2048 | 4096 | 8192 16,384\n1 1.00 |1.00 }1.00 |1.00 | 1.00\n\n2 oso |o94 fos7 Jos |o9s\n4 ost |o78 joso jogs |o9s\n8 030 |oe1 fos2 |oga fogs\n\n16 015 |039 |o68 |os89 |0.97",
+  "description": ""
+}

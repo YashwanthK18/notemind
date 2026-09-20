@@ -1,0 +1,4 @@
+{
+  "text": "20\n\n29\n30\n31\n32\n33\n\n#include <stdio.h>\n#include <string.h> /* For strlen /\n#include <mpi.h> /* For MPI functions, ete */\n\nconst int MAX_STRING = 100;\n\nt main(void) {\n\nchar greeting [MAX_STRING ];\nint comm_sz; /* Number of processes */\nint my_rank; /® My process rank /\n\nMPI_Init (NULL, NULL)3\nMPI_Comm_size(MPI_COMM_WORLD, &comm_sz);\nMPT_Comm_rank(MPI_COMM WORLD, &my_rank);\n\nif (my_rank t= 0) {\nsprintf (greeting, \"Greetings from process Sd of Rd!*,\nmy_rank, comm_sz);\nMPI_Send(g ting, strien(g\nNPI_COMM_ WORLD);\n\nting)+I, MPI_CHAR, 0, 0,\n\n} else {\nprintf(\"Greetings from process %d of %d!\\n\",\nmy_rank, comm_sz);\nfor (int q = 1; q < comm_sz; q++) {\nMPI_Recv(greeting, MAX_STRING, MPI_CHAR, q,\n0, MPI_COMM_WORLO, MPI_STATUS_IGNORE );\nprintf(\"%s\\n\", greeting);\n\nMPI_Finalize();\nreturn 0;\n) /® main */\n\nProgram 3.1: MPI program that prints greetings from the processes.",
+  "description": ""
+}
