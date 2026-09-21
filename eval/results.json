@@ -1,0 +1,37 @@
+{
+  "top_k": 5,
+  "total_questions": 3,
+  "hits": 3,
+  "hit_rate": 1.0,
+  "mrr": 1.0,
+  "avg_latency_ms": 76.66503333409007,
+  "per_question": [
+    {
+      "id": "figure_3_13",
+      "query": "What does Figure 3.13 show?",
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.13694769999710843,
+      "num_results_returned": 2
+    },
+    {
+      "id": "mpi_ssend",
+      "query": "What is MPI_Ssend?",
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.049653599970042706,
+      "num_results_returned": 5
+    },
+    {
+      "id": "unsafe_ring_communication",
+      "query": "What causes unsafe communication in a ring?",
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.04339380003511906,
+      "num_results_returned": 5
+    }
+  ]
+}

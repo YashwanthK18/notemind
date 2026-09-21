@@ -5,3 +5,4 @@ ollama
 pymupdf
 pytesseract
 pillow
+pytest

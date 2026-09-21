@@ -1,0 +1,21 @@
+[
+  {
+    "id": "figure_3_13",
+    "query": "What does Figure 3.13 show?",
+    "expected_keywords": ["figure 3.13", "safe communication"],
+    "expected_source": "BCS702-module-3-pdf.pdf",
+    "expected_page": 39
+  },
+  {
+    "id": "mpi_ssend",
+    "query": "What is MPI_Ssend?",
+    "expected_keywords": ["mpi_ssend"],
+    "expected_source": "BCS702-module-3-pdf.pdf"
+  },
+  {
+    "id": "unsafe_ring_communication",
+    "query": "What causes unsafe communication in a ring?",
+    "expected_keywords": ["unsafe", "ring"],
+    "expected_source": "BCS702-module-3-pdf.pdf"
+  }
+]
